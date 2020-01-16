@@ -45,5 +45,5 @@ def main(args):
             print(f'{password} is strong and you are good to GO')
     return 'Done!'
 
-
-main(sys.argv[1:])
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:])) # exit the process if it does not exit
